@@ -3,13 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Bath In Books</title>
+        <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     </head>
     <body>
         <script type="text/javascript" src="/js/books.js"></script>
         <script type="text/javascript">
-        var myBooks = new Books();
+        var myBooks = new Books(),
+            newBook;
 
-        var newBook = myBooks.fetchData();
+        myBooks.fetchData().then((data) => {
+            newBook = myBooks.getBook(data);
+        });
         </script>
     </body>
 </html>
