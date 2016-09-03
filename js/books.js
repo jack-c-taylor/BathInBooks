@@ -10,7 +10,7 @@ class Books {
 
     getBook (data) {
         var index = Math.round(Math.random() * (data.length - 0) + 0);
-        console.log(data[index]['uri']);
+
         return data[index]['uri'];
     }
 
