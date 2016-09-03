@@ -1,0 +1,889 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "qbgq-tnkt",
+      "name" : "BNB: Books About Bath",
+      "attribution" : "British Library",
+      "attributionLink" : "http://bnb.data.bl.uk/",
+      "averageRating" : 0,
+      "category" : "Heritage",
+      "createdAt" : 1413127587,
+      "description" : "This dataset is an extract from the British National Bibliography (BNB) and contains a list of books published about Bath. Each row of the dataset provide the name, isbn and author name for a published book along with its unique BNB identifier. The same work might appear on multiple rows because it has been published multiple times under different ISBNs or has multiple authors.",
+      "displayType" : "table",
+      "downloadCount" : 33,
+      "indexUpdatedAt" : 1413128952,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 17135,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1413128354,
+      "publicationGroup" : 12043,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1413128942,
+      "rowsUpdatedBy" : "22aw-9kr4",
+      "tableId" : 12043,
+      "totalTimesRated" : 0,
+      "viewCount" : 152,
+      "viewLastModified" : 1413128543,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 194042,
+        "name" : "id",
+        "dataTypeName" : "text",
+        "fieldName" : "id",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125178,
+        "width" : 124,
+        "cachedContents" : {
+          "non_null" : 201,
+          "largest" : "GBB489081",
+          "null" : 0,
+          "top" : [ {
+            "item" : "GBA924062",
+            "count" : 20
+          }, {
+            "item" : "GBA692977",
+            "count" : 19
+          }, {
+            "item" : "GB8615206",
+            "count" : 18
+          }, {
+            "item" : "GBA646949",
+            "count" : 17
+          }, {
+            "item" : "GBB0E0852",
+            "count" : 16
+          }, {
+            "item" : "GB99X8194",
+            "count" : 15
+          }, {
+            "item" : "GB7932143",
+            "count" : 14
+          }, {
+            "item" : "GB8625204",
+            "count" : 13
+          }, {
+            "item" : "GB8317047",
+            "count" : 12
+          }, {
+            "item" : "GBA898781",
+            "count" : 11
+          }, {
+            "item" : "GB9010327",
+            "count" : 10
+          }, {
+            "item" : "GBA633824",
+            "count" : 9
+          }, {
+            "item" : "GBB1D7156",
+            "count" : 8
+          }, {
+            "item" : "GB8301475",
+            "count" : 7
+          }, {
+            "item" : "GB7428105",
+            "count" : 6
+          }, {
+            "item" : "GBB272412",
+            "count" : 5
+          }, {
+            "item" : "GB9827207",
+            "count" : 4
+          }, {
+            "item" : "GB7528876",
+            "count" : 3
+          }, {
+            "item" : "GB8727124",
+            "count" : 2
+          }, {
+            "item" : "GBB0B7262",
+            "count" : 1
+          } ],
+          "smallest" : "GB6924963"
+        },
+        "format" : { }
+      }, {
+        "id" : 194043,
+        "name" : "uri",
+        "dataTypeName" : "url",
+        "fieldName" : "uri",
+        "position" : 2,
+        "renderTypeName" : "url",
+        "tableColumnId" : 125179,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 201,
+          "largest" : {
+            "url" : "http://bnb.data.bl.uk/id/resource/016638498"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/013814583"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/013590762"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/010742935"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/013465126"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/015349688"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/008389981"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/007437385"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/009450762"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/012688461"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/014691724"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/008807800"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/013431641"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/015978967"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/012647507"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/012254470"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/016131015"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/006748127"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/008041546"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/010077907"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://bnb.data.bl.uk/id/resource/015660194"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://bnb.data.bl.uk/id/resource/006748127"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 194044,
+        "name" : "title",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125180,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 201,
+          "largest" : "Yesterday in Bath : a camera record, 1849-1949",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Bath",
+            "count" : 20
+          }, {
+            "item" : "The city of Bath",
+            "count" : 19
+          }, {
+            "item" : "Bath gyratory : stone & spa walk",
+            "count" : 18
+          }, {
+            "item" : "The vault",
+            "count" : 17
+          }, {
+            "item" : "Walking in Bath",
+            "count" : 16
+          }, {
+            "item" : "City of Bath",
+            "count" : 15
+          }, {
+            "item" : "The Theatre Royal at Bath : the eventful story of a Georgian playhouse",
+            "count" : 14
+          }, {
+            "item" : "Lady Sabrina's secret",
+            "count" : 13
+          }, {
+            "item" : "Absolute honour",
+            "count" : 12
+          }, {
+            "item" : "This is Paradise",
+            "count" : 11
+          }, {
+            "item" : "Portrait of Bath",
+            "count" : 10
+          }, {
+            "item" : "Electricity in Bath, 1890-1974",
+            "count" : 9
+          }, {
+            "item" : "Water, history and style : Bath World Heritage Site",
+            "count" : 8
+          }, {
+            "item" : "The new Bath guide",
+            "count" : 7
+          }, {
+            "item" : "Bath and its surroundings",
+            "count" : 6
+          }, {
+            "item" : "Tales from the pump room : nine hundred years of Bath : the place, its people and its gossip",
+            "count" : 5
+          }, {
+            "item" : "Ralph Allen : builder of Bath",
+            "count" : 4
+          }, {
+            "item" : "Headcase",
+            "count" : 3
+          }, {
+            "item" : "The killing of Sally Keemer : the new bath detective mystery",
+            "count" : 2
+          }, {
+            "item" : "Diseased, douched and doctored : thermal springs, spa doctors and rheumatic diseases",
+            "count" : 1
+          } ],
+          "smallest" : "'Finished labour of a thousand hands' : the archaeology of the Combe Down Stone Mines, Bath, Somerset"
+        },
+        "format" : { }
+      }, {
+        "id" : 194045,
+        "name" : "published",
+        "dataTypeName" : "number",
+        "fieldName" : "published",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 125181,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 201,
+          "average" : "1995.562189054726",
+          "largest" : "2014",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1995",
+            "count" : 20
+          }, {
+            "item" : "1999",
+            "count" : 19
+          }, {
+            "item" : "2001",
+            "count" : 18
+          }, {
+            "item" : "1977",
+            "count" : 17
+          }, {
+            "item" : "1994",
+            "count" : 16
+          }, {
+            "item" : "2012",
+            "count" : 15
+          }, {
+            "item" : "2004",
+            "count" : 14
+          }, {
+            "item" : "2002",
+            "count" : 13
+          }, {
+            "item" : "2007",
+            "count" : 12
+          }, {
+            "item" : "1975",
+            "count" : 11
+          }, {
+            "item" : "2006",
+            "count" : 10
+          }, {
+            "item" : "2011",
+            "count" : 9
+          }, {
+            "item" : "2009",
+            "count" : 8
+          }, {
+            "item" : "2010",
+            "count" : 7
+          }, {
+            "item" : "1991",
+            "count" : 6
+          }, {
+            "item" : "1998",
+            "count" : 5
+          }, {
+            "item" : "2005",
+            "count" : 4
+          }, {
+            "item" : "1973",
+            "count" : 3
+          }, {
+            "item" : "2000",
+            "count" : 2
+          }, {
+            "item" : "1970",
+            "count" : 1
+          } ],
+          "smallest" : "1969",
+          "sum" : "401108"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 194048,
+        "name" : "isbn",
+        "dataTypeName" : "text",
+        "fieldName" : "isbn",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125182,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 201,
+          "largest" : "1909520276",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1846740142",
+            "count" : 20
+          }, {
+            "item" : "1846854199",
+            "count" : 19
+          }, {
+            "item" : "0862992508",
+            "count" : 18
+          }, {
+            "item" : "0948975776",
+            "count" : 17
+          }, {
+            "item" : "0956290000",
+            "count" : 16
+          }, {
+            "item" : "0753160684",
+            "count" : 15
+          }, {
+            "item" : "0906230004",
+            "count" : 14
+          }, {
+            "item" : "0853720886",
+            "count" : 13
+          }, {
+            "item" : "0905459490",
+            "count" : 12
+          }, {
+            "item" : "0709086571",
+            "count" : 11
+          }, {
+            "item" : "0948661143",
+            "count" : 10
+          }, {
+            "item" : "0752871900",
+            "count" : 9
+          }, {
+            "item" : "1447216210",
+            "count" : 8
+          }, {
+            "item" : "0709198833",
+            "count" : 7
+          }, {
+            "item" : "0904587002",
+            "count" : 6
+          }, {
+            "item" : "0752488147",
+            "count" : 5
+          }, {
+            "item" : "1874092117",
+            "count" : 4
+          }, {
+            "item" : "0239001478",
+            "count" : 3
+          }, {
+            "item" : "0575041935",
+            "count" : 2
+          }, {
+            "item" : "1848484666",
+            "count" : 1
+          } ],
+          "smallest" : "0094737703"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 194047,
+        "name" : "author",
+        "dataTypeName" : "text",
+        "fieldName" : "author",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 125183,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 201,
+          "largest" : "Yvonne Whiteman",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Barry W. Cunliffe",
+            "count" : 20
+          }, {
+            "item" : "John Wroughton",
+            "count" : 19
+          }, {
+            "item" : "Nigel Vile",
+            "count" : 18
+          }, {
+            "item" : "David Falconer",
+            "count" : 17
+          }, {
+            "item" : "Kirsten Elliott",
+            "count" : 16
+          }, {
+            "item" : "William Lowndes",
+            "count" : 15
+          }, {
+            "item" : "William Edward Eyles",
+            "count" : 14
+          }, {
+            "item" : "Cathryn Spence",
+            "count" : 13
+          }, {
+            "item" : "Christopher Anstey",
+            "count" : 12
+          }, {
+            "item" : "Neil Gibson",
+            "count" : 11
+          }, {
+            "item" : "Thomas Hinde",
+            "count" : 10
+          }, {
+            "item" : "Carole French",
+            "count" : 9
+          }, {
+            "item" : "Diana Winsor",
+            "count" : 8
+          }, {
+            "item" : "Peter Helton",
+            "count" : 7
+          }, {
+            "item" : "Christopher Lee",
+            "count" : 6
+          }, {
+            "item" : "Roger Rolls",
+            "count" : 5
+          }, {
+            "item" : "Sue Thomas",
+            "count" : 4
+          }, {
+            "item" : "Jane Wilton-Smith",
+            "count" : 3
+          }, {
+            "item" : "Brenda Snaddon",
+            "count" : 2
+          }, {
+            "item" : "Edith Sitwell",
+            "count" : 1
+          } ],
+          "smallest" : "A. J. Turner"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Additional Licence Detail" : {
+            "Licence URL" : "http://creativecommons.org/publicdomain/zero/1.0/",
+            "Additional Licence Information" : "CC0 Public Domain Dedication"
+          },
+          "Publication" : {
+            "ODI Certificate" : "https://certificates.theodi.org/datasets/1063/certificates/14763",
+            "Update Frequency" : "On change"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "published"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "22aw-9kr4",
+        "displayName" : "Leigh Dodds",
+        "profileImageUrlLarge" : "/api/users/22aw-9kr4/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/22aw-9kr4/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/22aw-9kr4/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Leigh Dodds",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "view_all_dataset_status_logs", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 194045,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 194045,
+        "flags" : [ "asc" ]
+      } ],
+      "tableAuthor" : {
+        "id" : "22aw-9kr4",
+        "displayName" : "Leigh Dodds",
+        "profileImageUrlLarge" : "/api/users/22aw-9kr4/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/22aw-9kr4/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/22aw-9kr4/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Leigh Dodds",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "view_all_dataset_status_logs", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "use_data_connectors" ]
+      },
+      "tags" : [ "books" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 23300, "0E6AD4E6-DBE5-413D-B1D1-EFEFF8B27B33", 23300, 1413128942, "467", 1413128942, "467", null, "GBB489081", [ "http://bnb.data.bl.uk/id/resource/016492835", null ], "Four Bath Buns", "2013", "1903056365", "Amanda Overeynder" ]
+, [ 23301, "B37BCD13-BEF5-4CBE-8FE0-936776EFEB77", 23301, 1413128942, "467", 1413128942, "467", null, "GB9579224", [ "http://bnb.data.bl.uk/id/resource/009477959", null ], "From Bath with love : an evocative view of Bath and the surrounding area", "1995", "0952185024", "Bob Croxford" ]
+, [ 23302, "ECB40B9C-B80A-4A9B-9780-E2A7BD58D24A", 23302, 1413128942, "467", 1413128942, "467", null, "GB99Y2940", [ "http://bnb.data.bl.uk/id/resource/008809957", null ], "Tim Mowl's garden walks near Bath", "1999", "0948975547", "Tim Mowl" ]
+, [ 23303, "F19065C1-2347-463F-829A-3C78BA0B8C70", 23303, 1413128942, "467", 1413128942, "467", null, "GB98W1904", [ "http://bnb.data.bl.uk/id/resource/009406060", null ], "The vault", "1999", "0316646466", "Peter Lovesey" ]
+, [ 23304, "13D515A4-5D41-4E05-9C13-980FF7299C08", 23304, 1413128942, "467", 1413128942, "467", null, "GB98V1423", [ "http://bnb.data.bl.uk/id/resource/010726512", null ], "Bath at war, 1939-1945", "1999", "0750919957", "David Falconer" ]
+, [ 23305, "CA2B6C28-35CA-4C19-AD69-D2E52F2034CD", 23305, 1413128942, "467", 1413128942, "467", null, "GBA160527", [ "http://bnb.data.bl.uk/id/resource/009482005", null ], "Bath administer'd : corporation affairs at the 18th-century spa", "2001", "0952632624", "Trevor Fawcett" ]
+, [ 23306, "3EE581C4-FC0A-474B-912A-2461F4F322F6", 23306, 1413128942, "467", 1413128942, "467", null, "GB7729085", [ "http://bnb.data.bl.uk/id/resource/008097060", null ], "Pleasures and people of Bath", "1977", "0718115880", "Kenneth Hudson" ]
+, [ 23307, "6F2B50C6-47E1-428A-A2A5-C3C47D71F712", 23307, 1413128942, "467", 1413128942, "467", null, "GBA861863", [ "http://bnb.data.bl.uk/id/resource/014602115", null ], "Rainstone fall", "2008", "1845296494", "Peter Helton" ]
+, [ 23308, "602F51CD-E198-408F-9FCB-C23F4E9A2D40", 23308, 1413128942, "467", 1413128942, "467", null, "GB7801850", [ "http://bnb.data.bl.uk/id/resource/008784973", null ], "Bath from Roman times", "1977", "0851221327", "Althea" ]
+, [ 23309, "E8C95F8A-3E71-47BE-9E46-478ED30BC991", 23309, 1413128942, "467", 1413128942, "467", null, "GB9445310", [ "http://bnb.data.bl.uk/id/resource/010725442", null ], "Bath : history and guide", "1994", "0750904259", "Trevor Fawcett" ]
+, [ 23310, "7797D835-A4B3-4E28-A574-E7D849096236", 23310, 1413128942, "467", 1413128942, "467", null, "GBB165836", [ "http://bnb.data.bl.uk/id/resource/015817513", null ], "Bath", "2012", "1904955932", "John Payne" ]
+, [ 23311, "68DDD884-A1B3-4EB3-A6FF-2D60E027C962", 23311, 1413128942, "467", 1413128942, "467", null, "GBA1Z8703", [ "http://bnb.data.bl.uk/id/resource/008390241", null ], "Fearful symmetry", "2001", "0753163934", "Morag Joss" ]
+, [ 23312, "2DE52750-19B5-4537-8BCF-13AB674C40F9", 23312, 1413128942, "467", 1413128942, "467", null, "GB9249130", [ "http://bnb.data.bl.uk/id/resource/008802214", null ], "The Bath tramways", "1992", "0853613923", "Colin Gordon Maggs" ]
+, [ 23313, "BD55C042-E369-4A31-B9D1-678D5D3AFC6D", 23313, 1413128942, "467", 1413128942, "467", null, "GBA454141", [ "http://bnb.data.bl.uk/id/resource/012958380", null ], "Bath tangle", "2004", "0099468093", "Georgette Heyer" ]
+, [ 23314, "B1738AFA-ED8A-4CD4-B6D6-861986AC2E45", 23314, 1413128942, "467", 1413128942, "467", null, "GBA1Z8703", [ "http://bnb.data.bl.uk/id/resource/008390241", null ], "Fearful symmetry", "2001", "0753163926", "Morag Joss" ]
+, [ 23315, "F7CAA5A9-8F04-4605-984F-9AB8A55883E3", 23315, 1413128942, "467", 1413128942, "467", null, "GBA2W4530", [ "http://bnb.data.bl.uk/id/resource/008388187", null ], "Medieval Bath uncovered", "2002", "075241965X", "Peter Davenport" ]
+, [ 23316, "8CBE69D4-6516-40ED-A5F5-07DD6EEF3736", 23316, 1413128942, "467", 1413128942, "467", null, "GBA682108", [ "http://bnb.data.bl.uk/id/resource/013563004", null ], "Absolute honour", "2007", "0753177978", "C. C. Humphreys" ]
+, [ 23317, "4E1BF68A-B69F-4261-8505-A692E7B04852", 23317, 1413128942, "467", 1413128942, "467", null, "GB7527934", [ "http://bnb.data.bl.uk/id/resource/010067822", null ], "Bath : an architectural guide", "1975", "0571108059", "Charles Robertson" ]
+, [ 23318, "221AD15A-6CEC-4222-9BEA-DF95CF8E58EA", 23318, 1413128942, "467", 1413128942, "467", null, "GB9938041", [ "http://bnb.data.bl.uk/id/resource/009699451", null ], "Discovering Bath", "1999", "0199189951", "Sue Thomas" ]
+, [ 23319, "844797B2-FB4F-4057-9EDB-2A2BEEFD2AFE", 23319, 1413128942, "467", 1413128942, "467", null, "GBB368473", [ "http://bnb.data.bl.uk/id/resource/013598075", null ], "Indexes of the 1841 census records of Somerset. Volume 36, Bath", "2006", "1905639104", "Judy Hodges" ]
+, [ 23320, "B0471614-D233-4E4E-A045-BE1A6737881C", 23320, 1413128942, "467", 1413128942, "467", null, "GBA987873", [ "http://bnb.data.bl.uk/id/resource/013808183", null ], "The naked guide to Bath", "2004", "0954417704", "Gideon Kibblewhite" ]
+, [ 23321, "ADF6AE8D-8B0B-4CFB-8B6E-DEA8B08AE202", 23321, 1413128942, "467", 1413128942, "467", null, "GBA058094", [ "http://bnb.data.bl.uk/id/resource/008809946", null ], "Hidden paths & secret gates : six all-day walks around Bath", "1996", "0948975415", "Kirsten Elliott" ]
+, [ 23322, "C2A27ED5-4D8B-4C98-9626-E5CC2F502F56", 23322, 1413128942, "467", 1413128942, "467", null, "GBB189264", [ "http://bnb.data.bl.uk/id/resource/015856404", null ], "Belinda goes to Bath", "2011", "1445837943", "M. C. Beaton" ]
+, [ 23323, "39F4274A-6D78-46A3-9B85-83F701D0BAD3", 23323, 1413128942, "467", 1413128942, "467", null, "GBA8B1003", [ "http://bnb.data.bl.uk/id/resource/013640868", null ], "Tudor Bath : life and strife in the 'little city' 1485-1603", "2006", "0952024977", "John Wroughton" ]
+, [ 23324, "C1D254B2-3F69-4FA4-8599-4477B0079993", 23324, 1413128942, "467", 1413128942, "467", null, "GBA8D6966", [ "http://bnb.data.bl.uk/id/resource/014845370", null ], "Haunted Bath", "2009", "0752447599", "David Brandon" ]
+, [ 23325, "5858B003-39DB-4626-B26B-A7C8FB008BA3", 23325, 1413128942, "467", 1413128942, "467", null, "GBA673224", [ "http://bnb.data.bl.uk/id/resource/013538132", null ], "A history of Bath : image and reality", "2006", "1859361129", "Graham Davis" ]
+, [ 23326, "84A44768-69CC-4078-B6CC-E1FEDB624FE8", 23326, 1413128942, "467", 1413128942, "467", null, "GB8809648", [ "http://bnb.data.bl.uk/id/resource/007399924", null ], "Historic Bath", "1987", "071170290X", "Diana Winsor" ]
+, [ 23327, "3EB038B3-7AB5-4838-9E53-A30C5C5A0343", 23327, 1413128942, "467", 1413128942, "467", null, "GBA591244", [ "http://bnb.data.bl.uk/id/resource/013282249", null ], "Nelson and Bath", "2004", "0953720039", "Louis Hodgkin" ]
+, [ 23328, "A121174C-5132-4F89-B62C-46058C59A7B4", 23328, 1413128942, "467", 1413128942, "467", null, "GB8715327", [ "http://bnb.data.bl.uk/id/resource/007441443", null ], "The bombing of Bath : the German air raids of April 1942", "1983", "0906798302", "Niall Rothnie" ]
+, [ 23329, "B48E768A-4833-4E80-8F9A-662AF3D2789A", 23329, 1413128942, "467", 1413128942, "467", null, "GBB073065", [ "http://bnb.data.bl.uk/id/resource/015578330", null ], "Bristol & Bath unlocked", "2010", "0956414834", "Emily Kerr" ]
+, [ 23330, "4B77D7CC-28BC-4286-B4C7-3BD3D310504C", 23330, 1413128942, "467", 1413128942, "467", null, "GB9010320", [ "http://bnb.data.bl.uk/id/resource/012040512", null ], "Nineteenth century Bath : architects & architecture", "1991", "1853980161", "N. Jackson" ]
+, [ 23331, "1C60912D-E03A-414E-BF49-1FDDD4E14A6D", 23331, 1413128942, "467", 1413128942, "467", null, "GB98W5836", [ "http://bnb.data.bl.uk/id/resource/012693052", null ], "The Royal Crescent book of Bath", "1998", "1855854988", "James Crathorne" ]
+, [ 23332, "D215A3D2-F108-4DD5-90CF-9EF82F7AECA4", 23332, 1413128942, "467", 1413128942, "467", null, "GBA073577", [ "http://bnb.data.bl.uk/id/resource/008388817", null ], "The killing of Cinderella : a Bath detective mystery", "1999", "0752827243", "Christopher Lee" ]
+, [ 23333, "F0CE6CD5-8C9D-4332-917F-E3C27E030F26", 23333, 1413128942, "467", 1413128942, "467", null, "GBB079626", [ "http://bnb.data.bl.uk/id/resource/015590386", null ], "Bath", "2010", "1849930007", "Jane Walker" ]
+, [ 23334, "694C69F4-46B3-4217-85C4-A41DA092C587", 23334, 1413128942, "467", 1413128942, "467", null, "GBA805062", [ "http://bnb.data.bl.uk/id/resource/013748870", null ], "The city of Bath : a pocket souvenir", "2005", "0954340981", "Bob Croxford" ]
+, [ 23335, "AB27F94B-896A-4E2C-8BF2-C73EBFFCCDD4", 23335, 1413128942, "467", 1413128942, "467", null, "GBA534730", [ "http://bnb.data.bl.uk/id/resource/013041682", null ], "Rural rambles near Bristol and Bath", "2004", "1853068519", "Connie Smith" ]
+, [ 23336, "033915E0-787B-44F4-8A1A-91A45032C7B8", 23336, 1413128942, "467", 1413128942, "467", null, "GBA633824", [ "http://bnb.data.bl.uk/id/resource/013431641", null ], "Absolute honour", "2006", "0752871919", "C. C. Humphreys" ]
+, [ 23337, "2EDAAFD1-7675-46CE-A801-77B86329865C", 23337, 1413128942, "467", 1413128942, "467", null, "GB9612268", [ "http://bnb.data.bl.uk/id/resource/012607781", null ], "Discovering Bath", "1995", "0199166994", "Sue Thomas" ]
+, [ 23338, "11D47E0A-2381-4333-8238-1B5092DDDE46", 23338, 1413128942, "467", 1413128942, "467", null, "GB7318763", [ "http://bnb.data.bl.uk/id/resource/011596990", null ], "The sack of Bath : a record and an indictment", "1973", "0859550028", "Adam Fergusson" ]
+, [ 23339, "06DB5E77-7F35-4586-89C1-583AAAF083BE", 23339, 1413128942, "467", 1413128942, "467", null, "GBA3U2185", [ "http://bnb.data.bl.uk/id/resource/006931028", null ], "Bath - more than a guide", "2004", "0711726450", "Annie Bullen" ]
+, [ 23340, "D0A56763-575D-441C-8265-5F3CC341EE57", 23340, 1413128942, "467", 1413128942, "467", null, "GBB027267", [ "http://bnb.data.bl.uk/id/resource/015481797", null ], "Bath as spa and Bath as slum : the social history of a Victorian city", "2009", "0773437886", "Graham Davis" ]
+, [ 23341, "A6ABC1A1-8E5A-4139-9FCF-80D5840F9864", 23341, 1413128942, "467", 1413128942, "467", null, "GBA124500", [ "http://bnb.data.bl.uk/id/resource/010732715", null ], "Roman Bath discovered", "2000", "0752419021", "Barry W. Cunliffe" ]
+, [ 23342, "0AE21AF5-F9CD-4CB6-A3BC-34845141AAE7", 23342, 1413128942, "467", 1413128942, "467", null, "GB7025414", [ "http://bnb.data.bl.uk/id/resource/012244856", null ], "Vanishing Bath", "1970", "0901571407", "Peter Coard" ]
+, [ 23343, "61D983BC-3C92-4022-9FA6-B879978D13BB", 23343, 1413128942, "467", 1413128942, "467", null, "GB8030524", [ "http://bnb.data.bl.uk/id/resource/010548870", null ], "Bath water : the effect of the waters on the history of Bath and of medicine", "1979", "0903044099", "George D. Kersley" ]
+, [ 23344, "AC161CA4-44B4-4A5A-B921-58F77FA37F42", 23344, 1413128942, "467", 1413128942, "467", null, "GBB0A5608", [ "http://bnb.data.bl.uk/id/resource/015640266", null ], "Bath : city on show", "2010", "0752456741", "Cathryn Spence" ]
+, [ 23345, "F7297C9E-7546-4572-8979-C1B613F87B8E", 23345, 1413128942, "467", 1413128942, "467", null, "GB7326380", [ "http://bnb.data.bl.uk/id/resource/009930633", null ], "Bath water : the effect of the waters on the history of Bath and of medicine", "1973", "0903044099", "George Durant Kersley" ]
+, [ 23346, "A95AD2A7-8C96-465F-A53F-42B23C907A93", 23346, 1413128942, "467", 1413128942, "467", null, "GB9507855", [ "http://bnb.data.bl.uk/id/resource/010659671", null ], "Turkey tracks", "1995", "0094737703", "Lizbie Brown" ]
+, [ 23347, "B8E15171-78FB-4A0A-8575-753DD7491B1C", 23347, 1413128942, "467", 1413128942, "467", null, "GB8601311", [ "http://bnb.data.bl.uk/id/resource/007443875", null ], "The new Bath guide", "1982", "0907142095", "Eva Jolly" ]
+, [ 23348, "09963A56-9155-4474-8CA4-109B931C7A18", 23348, 1413128942, "467", 1413128942, "467", null, "GBA775666", [ "http://bnb.data.bl.uk/id/resource/013950925", null ], "Crow stone", "2007", "1847820468", "Jenni Mills" ]
+, [ 23349, "ACA15E41-D8AB-4F2D-A68B-FE17FCA5EE70", 23349, 1413128942, "467", 1413128942, "467", null, "GB9482815", [ "http://bnb.data.bl.uk/id/resource/009450922", null ], "The family guide to Bath : souvenir poster, free postcards and 4 city walks with maps", "1993", "0853726124", "Rosemary Phipps" ]
+, [ 23350, "41C8894D-C460-47EC-BC97-90C37979772E", 23350, 1413128942, "467", 1413128942, "467", null, "GB9219963", [ "http://bnb.data.bl.uk/id/resource/008412382", null ], "Hot springs of Bath : investigations of the thermal waters of the Avon Valley", "1991", "0901303259", "G. A. Kellaway" ]
+, [ 23351, "988EBD72-699A-4CE4-A24A-41907AB84845", 23351, 1413128942, "467", 1413128942, "467", null, "GBB0B4539", [ "http://bnb.data.bl.uk/id/resource/015654984", null ], "Belinda goes to Bath", "2011", "1849014809", "M. C. Beaton" ]
+, [ 23352, "06B571B9-98A0-494F-966B-B38B6846F289", 23352, 1413128942, "467", 1413128942, "467", null, "GB8106591", [ "http://bnb.data.bl.uk/id/resource/007394091", null ], "Bath 1680-1850 : a social history, or, a valley of pleasure, yet a sink of iniquity", "1981", "071000639X", "R. S. Neale" ]
+, [ 23353, "F47C9B13-8DE7-408F-877C-DB6390990324", 23353, 1413128942, "467", 1413128942, "467", null, "GBA647310", [ "http://bnb.data.bl.uk/id/resource/013419921", null ], "The lost pubs of Bath", "2005", "0954613848", "Andrew Swift" ]
+, [ 23354, "BF47AD5D-B772-4C94-A0D6-2C47DC0D45F8", 23354, 1413128942, "467", 1413128942, "467", null, "GB8502633", [ "http://bnb.data.bl.uk/id/resource/011392867", null ], "Exploring Bath", "1984", "1850260028", "Keith Dallimore" ]
+, [ 23355, "80398FF5-3F0F-474E-A48E-D840FF62C988", 23355, 1413128942, "467", 1413128942, "467", null, "GBB272924", [ "http://bnb.data.bl.uk/id/resource/016131527", null ], "Georgian Bath", "2012", "1445609592", "Pat Dargan" ]
+, [ 23356, "1EC94723-344B-430F-8D40-4371A1E93EA2", 23356, 1413128942, "467", 1413128942, "467", null, "GB9842066", [ "http://bnb.data.bl.uk/id/resource/009482004", null ], "Bath entertain'd : amusements, recreations and gambling at the 18th-century spa", "1998", "0952632616", "Trevor Fawcett" ]
+, [ 23357, "E0CE3A9C-7552-40FF-B5E3-B69FB543D808", 23357, 1413128942, "467", 1413128942, "467", null, "GBA522699", [ "http://bnb.data.bl.uk/id/resource/013135395", null ], "The little book of Bath", "2003", "0711724334", "Gill Knappett" ]
+, [ 23358, "25A39E98-F134-4DA3-8CA7-B4ED90FC1C0C", 23358, 1413128942, "467", 1413128942, "467", null, "GB7001541", [ "http://bnb.data.bl.uk/id/resource/012239918", null ], "Roman Bath", "1969", "0854310002", "Barry W. Cunliffe" ]
+, [ 23359, "804B358F-2843-4ABE-A550-A547CB1AFFDA", 23359, 1413128942, "467", 1413128942, "467", null, "GBA3V0262", [ "http://bnb.data.bl.uk/id/resource/010337725", null ], "Bath", "2003", "0300101775", "Michael Forsyth" ]
+, [ 23360, "DB6CF909-0E1A-483F-9D07-839A077BBE10", 23360, 1413128942, "467", 1413128942, "467", null, "GB7119945", [ "http://bnb.data.bl.uk/id/resource/009935070", null ], "Bath: walks within the walls : a study of Bath as a built-form taken over by other uses", "1971", "0239001044", "Peter Smithson" ]
+, [ 23361, "EBC1D9DA-AC85-4FCB-BC97-AF2F4FC9EFA0", 23361, 1413128942, "467", 1413128942, "467", null, "GB8932865", [ "http://bnb.data.bl.uk/id/resource/010734925", null ], "Bath and the eighteenth century novel", "1989", "0861970721", "Mary K. Hill" ]
+, [ 23362, "E55522CA-1155-4011-9096-7F765065D461", 23362, 1413128942, "467", 1413128942, "467", null, "GB7620901", [ "http://bnb.data.bl.uk/id/resource/012026462", null ], "A walk along the canal in Bath", "1976", "090157175X", "Valerie Edna Bowyer" ]
+, [ 23363, "50DB4814-0471-44FB-BE32-21E3EA1DC2C4", 23363, 1413128942, "467", 1413128942, "467", null, "GB97Y6193", [ "http://bnb.data.bl.uk/id/resource/010079286", null ], "The killing of Sally Keemer", "1997", "0575063467", "Christopher Lee" ]
+, [ 23364, "4ABD0A7B-5861-4946-8143-521200CF37BD", 23364, 1413128942, "467", 1413128942, "467", null, "GB8727124", [ "http://bnb.data.bl.uk/id/resource/010077907", null ], "Tales from the pump room : nine hundred years of Bath : the place, its people and its gossip", "1988", "0575039655", "Thomas Hinde" ]
+, [ 23365, "C76EC7CF-4806-4AE7-988F-DF57FB2BABAF", 23365, 1413128942, "467", 1413128942, "467", null, "GB7221204", [ "http://bnb.data.bl.uk/id/resource/008351648", null ], "Yesterday in Bath : a camera record, 1849-1949", "1972", "0273318543", "Adrian Ball" ]
+, [ 23366, "4E2683B2-8897-4835-A65B-B767A3D22F42", 23366, 1413128942, "467", 1413128942, "467", null, "GB7019409", [ "http://bnb.data.bl.uk/id/resource/012231911", null ], "Kingswood School in Wesley's day and since", "1970", "0716201631", "Arthur Glendinning Ives" ]
+, [ 23367, "3427C25C-F193-4D60-9714-CDD61E910F10", 23367, 1413128942, "467", 1413128942, "467", null, "GBA404663", [ "http://bnb.data.bl.uk/id/resource/009483438", null ], "In the footsteps of Jane Austen through Bath to Lyncombe and Widcombe : a walk through history", "2003", "0952821060", "Janet Aylmer" ]
+, [ 23368, "B56BC330-BE03-4DDA-8E57-5F141FA6512E", 23368, 1413128942, "467", 1413128942, "467", null, "GBB098759", [ "http://bnb.data.bl.uk/id/resource/015630014", null ], "The Penningtons", "2010", "0727869884", "Pamela Oldfield" ]
+, [ 23369, "3F388454-54D2-43A8-BDFA-483B162685AF", 23369, 1413128942, "467", 1413128942, "467", null, "GB9713314", [ "http://bnb.data.bl.uk/id/resource/007410650", null ], "English Heritage book of Roman Bath", "1995", "0713478926", "Barry W. Cunliffe" ]
+, [ 23370, "35A6785D-C71E-43AE-8D74-3CEC6BF3C453", 23370, 1413128942, "467", 1413128942, "467", null, "GB7700538", [ "http://bnb.data.bl.uk/id/resource/012681733", null ], "Barrow Mead, Bath, 1964 : excavation of a medieval peasant house", "1976", "0904531317", "Jayne Woodhouse" ]
+, [ 23371, "BF573086-6D63-411B-A924-16A5CC7CE8FF", 23371, 1413128942, "467", 1413128942, "467", null, "GBA9A5299", [ "http://bnb.data.bl.uk/id/resource/014552736", null ], "Joyce and Edie in Bath", "2007", "0948975814", "Christine Jump" ]
+, [ 23372, "A7184583-7FB2-4AD6-AD24-F5B4CAFA53D1", 23372, 1413128942, "467", 1413128942, "467", null, "GBB258635", [ "http://bnb.data.bl.uk/id/resource/016105231", null ], "Emerald flame", "1997", "0783880707", "Virginia Coffman" ]
+, [ 23373, "DFDDE4FE-0E68-4E85-934D-B6BD106F1B52", 23373, 1413128942, "467", 1413128942, "467", null, "GBA978174", [ "http://bnb.data.bl.uk/id/resource/014548060", null ], "The essential Roman baths", "2006", "1857594665", "Stephen Bird" ]
+, [ 23374, "D731123F-9879-4DE1-83A1-F607A8017FAC", 23374, 1413128942, "467", 1413128942, "467", null, "GB7703204", [ "http://bnb.data.bl.uk/id/resource/012026465", null ], "Portraits of Bath", "1976", "0901571784", "John Tompkins" ]
+, [ 23375, "37B96D15-BFEF-4B3B-A26C-EF0A9CBF58AA", 23375, 1413128942, "467", 1413128942, "467", null, "GBA2V9425", [ "http://bnb.data.bl.uk/id/resource/012642332", null ], "The bargain", "2002", "0709071175", "Melinda Hammond" ]
+, [ 23376, "E72D7C47-4145-491F-B06F-4CE0A8AA3473", 23376, 1413128942, "467", 1413128942, "467", null, "GBB189229", [ "http://bnb.data.bl.uk/id/resource/015856369", null ], "The wrong Miss Richmond", "2011", "1410435350", "Sandra Wilson" ]
+, [ 23377, "94E4E217-1A76-4C66-98D8-EA7B300FE875", 23377, 1413128942, "467", 1413128942, "467", null, "GB7113773", [ "http://bnb.data.bl.uk/id/resource/007689987", null ], "Georgian summer : Bath in the eighteenth century", "1971", "0239000838", "David Gadd" ]
+, [ 23378, "B05034DF-AA3A-4F92-8502-846ABD033A3C", 23378, 1413128942, "467", 1413128942, "467", null, "GBA606933", [ "http://bnb.data.bl.uk/id/resource/006914706", null ], "Stuart Bath : life in the forgotten city, 1603-1714", "2004", "0952024950", "John Wroughton" ]
+, [ 23379, "920EB187-6AFD-406C-BE73-597B42CE292C", 23379, 1413128942, "467", 1413128942, "467", null, "GB99Y3557", [ "http://bnb.data.bl.uk/id/resource/011316565", null ], "Funeral music", "1998", "0340718463", "Morag Joss" ]
+, [ 23380, "8F14A7F8-765A-450A-B332-11C6BF3F1AA2", 23380, 1413128942, "467", 1413128942, "467", null, "GBA661055", [ "http://bnb.data.bl.uk/id/resource/013508008", null ], "The Mantua-maker's beau", "2006", "1594144524", "Anne Holman" ]
+, [ 23381, "1AB7E2CC-7E58-4623-8F1D-779CF54C8481", 23381, 1413128942, "467", 1413128942, "467", null, "GB9502411", [ "http://bnb.data.bl.uk/id/resource/008809943", null ], "A window on Bath : eight walks in Bath", "1994", "0948975385", "Kirsten Elliott" ]
+, [ 23382, "7437FC03-6AE9-4B93-8AA2-9FA019940743", 23382, 1413128942, "467", 1413128942, "467", null, "GB9981759", [ "http://bnb.data.bl.uk/id/resource/011356006", null ], "Medicine and charity in Georgian Bath : a social history of the General Infirmary, c.1739-1830", "1999", "0754600602", "Anne Borsay" ]
+, [ 23383, "8C1D6ED0-6D5F-4C84-BC45-B0D069BB3A81", 23383, 1413128942, "467", 1413128942, "467", null, "GBA045903", [ "http://bnb.data.bl.uk/id/resource/008809959", null ], "Exploring Bath", "2000", "0948975571", "Keith Dallimore" ]
+, [ 23384, "2E01CEA2-DA46-4F1B-BE60-6AB68D76D533", 23384, 1413128942, "467", 1413128942, "467", null, "GBA879241", [ "http://bnb.data.bl.uk/id/resource/013089114", null ], "Awash with ale : 2000 years of imbibing in Bath", "2004", "0954613813", "Kirsten Elliott" ]
+, [ 23385, "1847B4B7-4612-47FC-8548-F07C71EFC341", 23385, 1413128942, "467", 1413128942, "467", null, "GB98Z0450", [ "http://bnb.data.bl.uk/id/resource/010079287", null ], "The killing of Cinderella : a Bath detective mystery", "1998", "0575063475", "Christopher Lee" ]
+, [ 23386, "BA0A9BFB-BCEE-4657-934D-0648BC306F00", 23386, 1413128942, "467", 1413128942, "467", null, "GB7527934", [ "http://bnb.data.bl.uk/id/resource/010067822", null ], "Bath : an architectural guide", "1975", "0571107508", "Charles Robertson" ]
+, [ 23387, "0C2C1023-5602-44F5-A46F-D7DB2374F6F8", 23387, 1413128942, "467", 1413128942, "467", null, "GB7105413", [ "http://bnb.data.bl.uk/id/resource/010321346", null ], "Roman Bath discovered", "1971", "0710068263", "Barry W. Cunliffe" ]
+, [ 23388, "13F50B7E-5CC3-417C-ABF3-D4D408602923", 23388, 1413128942, "467", 1413128942, "467", null, "GBA510003", [ "http://bnb.data.bl.uk/id/resource/013100591", null ], "The imaginary autocrat : Beau Nash and the invention of Bath", "2005", "1861973020", "John Eglin" ]
+, [ 23389, "7277BAC2-AFF1-44DF-900C-810206EC3ABC", 23389, 1413128942, "467", 1413128942, "467", null, "GB7028733", [ "http://bnb.data.bl.uk/id/resource/012244898", null ], "Bath, medicine and the waters", "1970", "0901591106", "George Durant Kersley" ]
+, [ 23390, "54C69129-528C-4817-9A4A-D92A25F7EE71", 23390, 1413128942, "467", 1413128942, "467", null, "GBA634349", [ "http://bnb.data.bl.uk/id/resource/013432166", null ], "The adventuress", "2006", "1846173604", "Ann Barker" ]
+, [ 23391, "E1DCF910-F4B3-4338-B64A-C66E2512E54D", 23391, 1413128942, "467", 1413128942, "467", null, "GB8537642", [ "http://bnb.data.bl.uk/id/resource/010734921", null ], "Memoirs of a street urchin", "1984", "0861970519", "Louie Stride" ]
+, [ 23392, "C162A319-6BE3-40B8-8706-01F0898D3123", 23392, 1413128942, "467", 1413128942, "467", null, "GBB0E0846", [ "http://bnb.data.bl.uk/id/resource/015349689", null ], "Bath gyratory : 3 bridges walk", "2009", "0956290019", "Barb Drummond" ]
+, [ 23393, "752D2C23-5617-4509-A928-63DF56B5E33D", 23393, 1413128942, "467", 1413128942, "467", null, "GB6924963", [ "http://bnb.data.bl.uk/id/resource/012241427", null ], "Bath and Bristol, with the Counties of Somerset and Gloucester, displayed in a series of views : including the modern improvements, picturesque scenery, antiquities, &c.", "1969", "0900409142", "Thomas H. Shepherd" ]
+, [ 23394, "71380405-2D0A-4159-B010-85841E3D523E", 23394, 1413128942, "467", 1413128942, "467", null, "GBA9C0044", [ "http://bnb.data.bl.uk/id/resource/015438448", null ], "A Jarrold guide to the Georgian city of Bath", "2000", "0711706700", "Richard Bailey" ]
+, [ 23395, "8BA0BD5D-6A7A-4027-830D-887173AD9500", 23395, 1413128942, "467", 1413128942, "467", null, "GB7115529", [ "http://bnb.data.bl.uk/id/resource/012256301", null ], "Guide to the Roman remains of Bath", "1970", "0950187100", "Barry W. Cunliffe" ]
+, [ 23396, "43E48679-70EF-4CEE-B511-C0B9B5E53DAC", 23396, 1413128942, "467", 1413128942, "467", null, "GBA8B1003", [ "http://bnb.data.bl.uk/id/resource/013640868", null ], "Tudor Bath : life and strife in the 'little city' 1485-1603", "2006", "0952024969", "John Wroughton" ]
+, [ 23397, "19BAAA9C-7A06-4053-A33E-768383B4C93B", 23397, 1413128942, "467", 1413128942, "467", null, "GBA682108", [ "http://bnb.data.bl.uk/id/resource/013563004", null ], "Absolute honour", "2007", "075317796X", "C. C. Humphreys" ]
+, [ 23398, "3B96D695-7F98-4982-82F1-B5DAF08B9FF5", 23398, 1413128942, "467", 1413128942, "467", null, "GBA0Z2224", [ "http://bnb.data.bl.uk/id/resource/012641888", null ], "Time of wonder", "2000", "0709066376", "Maisie Hampton" ]
+, [ 23399, "4AB4D7FD-C3C6-4D47-88E4-AD2BA2541241", 23399, 1413128942, "467", 1413128942, "467", null, "GBB435058", [ "http://bnb.data.bl.uk/id/resource/016638498", null ], "Killing Jane Austen", "2014", "1909520276", "J. G. Goodhind" ]
+, [ 23400, "6A47AC20-7F61-4475-B1F7-484B968FD0A9", 23400, 1413128942, "467", 1413128942, "467", null, "GB9010327", [ "http://bnb.data.bl.uk/id/resource/008807800", null ], "The city of Bath", "1990", "0948661127", "Colin Baxter" ]
+, [ 23401, "A708AC0F-B449-4041-977E-737AA5ACAF7A", 23401, 1413128942, "467", 1413128942, "467", null, "GB7703204", [ "http://bnb.data.bl.uk/id/resource/012026465", null ], "Portraits of Bath", "1976", "0901571806", "John Tompkins" ]
+, [ 23402, "881A4F71-AFE8-49FC-9BC6-1DC59D120312", 23402, 1413128942, "467", 1413128942, "467", null, "GB7610540", [ "http://bnb.data.bl.uk/id/resource/008813412", null ], "Prior Park, its history and description", "1975", "0950474908", "Bryan D. G. Little" ]
+, [ 23403, "6A4A2A0F-D71D-425F-B6C9-D4961FA31375", 23403, 1413128942, "467", 1413128942, "467", null, "GBB023846", [ "http://bnb.data.bl.uk/id/resource/014551980", null ], "A century of Bath", "2007", "0750949252", "David Falconer" ]
+, [ 23404, "F69A75C4-7B44-437D-8607-54499F47600F", 23404, 1413128942, "467", 1413128942, "467", null, "GB8615206", [ "http://bnb.data.bl.uk/id/resource/010742935", null ], "The city of Bath", "1986", "0862992974", "Barry W. Cunliffe" ]
+, [ 23405, "4EFCBC40-11E0-46B4-B08C-96B49973427F", 23405, 1413128942, "467", 1413128942, "467", null, "GBB279955", [ "http://bnb.data.bl.uk/id/resource/016147936", null ], "The story of Roman Bath", "2012", "1445610906", "Pat Southern" ]
+, [ 23406, "40AE0BAC-5C03-4060-9F62-338A0C9DF8EF", 23406, 1413128942, "467", 1413128942, "467", null, "GBA656159", [ "http://bnb.data.bl.uk/id/resource/013495224", null ], "Bath curiosities", "2006", "1841585033", "Michael Raffael" ]
+, [ 23407, "153E7FC7-560D-4CF1-987A-26EA27A4A417", 23407, 1413128942, "467", 1413128942, "467", null, "GB7521215", [ "http://bnb.data.bl.uk/id/resource/012026460", null ], "Walking in and around Bath", "1975", "0901571725", "Charles Greenwood" ]
+, [ 23408, "D5316882-FE9D-4DBC-8AFB-3ED3BE1AE307", 23408, 1413128942, "467", 1413128942, "467", null, "GBA315800", [ "http://bnb.data.bl.uk/id/resource/010123819", null ], "Jane Austen in Bath", "2002", "0953817415", "Jean Freeman" ]
+, [ 23409, "F7BAF715-59E8-42AC-A70D-71493D38E575", 23409, 1413128942, "467", 1413128942, "467", null, "GBA1U9049", [ "http://bnb.data.bl.uk/id/resource/010087173", null ], "A necessary evil", "2002", "074726628X", "Hannah March" ]
+, [ 23410, "6904DA3F-E598-4562-AAB2-ADCACDE83B25", 23410, 1413128942, "467", 1413128942, "467", null, "GB7316337", [ "http://bnb.data.bl.uk/id/resource/010323181", null ], "Bath", "1973", "0713400781", "John Haddon" ]
+, [ 23411, "3D2198CC-4A3A-4450-97AE-4A2149E53B4F", 23411, 1413128942, "467", 1413128942, "467", null, "GBA3V7187", [ "http://bnb.data.bl.uk/id/resource/007049129", null ], "Bath : the golden years : from the archives of the Bath Chronicle", "2003", "1841143049", "Theresa Ford" ]
+, [ 23412, "A9B31DEF-3782-45FA-8D69-DC15A43D188B", 23412, 1413128942, "467", 1413128942, "467", null, "GBA367383", [ "http://bnb.data.bl.uk/id/resource/010127732", null ], "Hot Bath : the story of the Spa", "2003", "0954519000", "Giles White" ]
+, [ 23413, "18466513-E18B-4631-85D2-F1CF47991868", 23413, 1413128942, "467", 1413128942, "467", null, "GBB168484", [ "http://bnb.data.bl.uk/id/resource/015820942", null ], "'Finished labour of a thousand hands' : the archaeology of the Combe Down Stone Mines, Bath, Somerset", "2011", "0904220605", "L. M. Willies" ]
+, [ 23414, "20C1CEFE-B9B9-4AAD-B5D6-E0846E92C9A1", 23414, 1413128942, "467", 1413128942, "467", null, "GB9351295", [ "http://bnb.data.bl.uk/id/resource/009476434", null ], "A community at war : the civil war in Bath and North Somerset 1642-1650", "1992", "095202490X", "John Wroughton" ]
+, [ 23415, "6F997B60-3605-4D93-8813-0240E0AB3E84", 23415, 1413128942, "467", 1413128942, "467", null, "GB8835869", [ "http://bnb.data.bl.uk/id/resource/007441467", null ], "The new Bath guide", "1989", "0906798957", "Yvonne Whiteman" ]
+, [ 23416, "5AF19152-AF16-4FFE-AE94-63CF7994D672", 23416, 1413128942, "467", 1413128942, "467", null, "GB9405306", [ "http://bnb.data.bl.uk/id/resource/010725351", null ], "The buildings of Bath", "1993", "0750902566", "Richard K. Morriss" ]
+, [ 23417, "CB8156B9-ECC7-4BE0-973A-C1331D2A9CF6", 23417, 1413128942, "467", 1413128942, "467", null, "GBA988575", [ "http://bnb.data.bl.uk/id/resource/015366158", null ], "Death is the cure", "2009", "0709089554", "Nicola Slade" ]
+, [ 23418, "78741024-DF11-4AC5-A6FF-7B72900A04F3", 23418, 1413128942, "467", 1413128942, "467", null, "GB8812154", [ "http://bnb.data.bl.uk/id/resource/012687913", null ], "Georgian summer : the rise and development of Bath", "1987", "0905392604", "David Gadd" ]
+, [ 23419, "3BBAEA3B-5CE1-4BE1-B211-C730ECD80FAF", 23419, 1413128942, "467", 1413128942, "467", null, "GBA606890", [ "http://bnb.data.bl.uk/id/resource/008979263", null ], "Bath : valley of the sacred spring", "2004", "0954517504", "Kim Green" ]
+, [ 23420, "D79414F5-66D3-428D-92A4-E4DC440CF75E", 23420, 1413128942, "467", 1413128942, "467", null, "GBA0Z1083", [ "http://bnb.data.bl.uk/id/resource/011316566", null ], "Fearful symmetry", "2000", "034071848X", "Morag Joss" ]
+, [ 23421, "0901A2BE-C17A-4A1C-A5F0-F33E6228639B", 23421, 1413128942, "467", 1413128942, "467", null, "GBA0V1692", [ "http://bnb.data.bl.uk/id/resource/008809963", null ], "One man's Bath", "2000", "0948975628", "Richard Askew" ]
+, [ 23422, "5CBA9F65-BE42-4D1B-97B7-1CAE51700348", 23422, 1413128942, "467", 1413128942, "467", null, "GB8539792", [ "http://bnb.data.bl.uk/id/resource/012025351", null ], "Known at this address", "1982", "0901303151", "Lesley Flash" ]
+, [ 23423, "A819A246-AA2F-4EE1-8668-B0CE7414947E", 23423, 1413128942, "467", 1413128942, "467", null, "GB99X8197", [ "http://bnb.data.bl.uk/id/resource/008389948", null ], "The killing of Cinderella : a bath mystery", "1999", "0753160307", "Christopher Lee" ]
+, [ 23424, "6D394E8F-0E2D-4B15-AD47-68309864D4A7", 23424, 1413128942, "467", 1413128942, "467", null, "GBA535977", [ "http://bnb.data.bl.uk/id/resource/013185205", null ], "The adventuress", "2005", "0709078803", "Ann Barker" ]
+, [ 23425, "9909EEA2-4E44-4744-BC86-BCB969A72D03", 23425, 1413128942, "467", 1413128942, "467", null, "GB8751975", [ "http://bnb.data.bl.uk/id/resource/007403064", null ], "Bath", "1987", "0712615075", "Edith Sitwell" ]
+, [ 23426, "02BB2998-6978-4565-A55B-7AF8990F759A", 23426, 1413128942, "467", 1413128942, "467", null, "GB8442101", [ "http://bnb.data.bl.uk/id/resource/012025350", null ], "The waters of the gap : the mythology of Aquae Sulis", "1981", "0901303135", "R. J. Stewart" ]
+, [ 23427, "6A9604D6-A31A-418D-9D0E-7B2A6DA836CF", 23427, 1413128942, "467", 1413128942, "467", null, "GB8539230", [ "http://bnb.data.bl.uk/id/resource/012672651", null ], "Bath portrait : the story of Bath, its life and its buildings", "1980", "0902780069", "Bryan D. G. Little" ]
+, [ 23428, "116F54C1-2CF4-444C-B83B-A0C9AE6D37E2", 23428, 1413128942, "467", 1413128942, "467", null, "GB7733778", [ "http://bnb.data.bl.uk/id/resource/012022818", null ], "Science and music in eighteenth century Bath : [catalogue of] an exhibition in the Holburne of Menstrie Museum, Bath, 22 September 1977-29 December 1977", "1977", "0900843837", "A. J. Turner" ]
+, [ 23429, "B52418AD-85D7-4932-BA87-0D8450AD6A69", 23429, 1413128942, "467", 1413128942, "467", null, "GBB067383", [ "http://bnb.data.bl.uk/id/resource/015566467", null ], "The wrong Miss Richmond", "2010", "0709090005", "Sandra Wilson" ]
+, [ 23430, "9E9CAD24-8956-4478-99C0-D6538309C595", 23430, 1413128942, "467", 1413128942, "467", null, "GB8221825", [ "http://bnb.data.bl.uk/id/resource/012688450", null ], "The Royal Crescent in Bath : a fragment of English life", "1981", "0905459342", "William Lowndes" ]
+, [ 23431, "44C53B05-E5A1-4285-B3DB-AA5C4E3E5C41", 23431, 1413128942, "467", 1413128942, "467", null, "GB9937942", [ "http://bnb.data.bl.uk/id/resource/012031315", null ], "Waterside walks near Bristol & Bath", "1999", "1853065544", "Nigel Vile" ]
+, [ 23432, "C5289EE4-3715-4364-8B10-B6E654ED1898", 23432, 1413128942, "467", 1413128942, "467", null, "GB9713314", [ "http://bnb.data.bl.uk/id/resource/007410650", null ], "English Heritage book of Roman Bath", "1995", "0713478934", "Barry W. Cunliffe" ]
+, [ 23433, "D21C6215-035D-47EE-B86C-E656CFAC585A", 23433, 1413128942, "467", 1413128942, "467", null, "GBA555951", [ "http://bnb.data.bl.uk/id/resource/013239208", null ], "Bath buns and chocolate Olivers : a Bath childhood", "2004", "0946418268", "Rosamund Willoughby" ]
+, [ 23434, "58309E3D-A80D-4344-9981-E11297025B9D", 23434, 1413128942, "467", 1413128942, "467", null, "GB9827207", [ "http://bnb.data.bl.uk/id/resource/006748127", null ], "The new Bath guide", "1994", "1874092125", "Christopher Anstey" ]
+, [ 23435, "BBC20375-D1C0-4E44-9CF7-E8F25EBAF993", 23435, 1413128942, "467", 1413128942, "467", null, "GB9977408", [ "http://bnb.data.bl.uk/id/resource/010726810", null ], "A century of Bath", "1999", "075092442X", "David Falconer" ]
+, [ 23436, "6C9EE874-9136-4955-892F-A5CFC67496D5", 23436, 1413128942, "467", 1413128942, "467", null, "GBA9C3905", [ "http://bnb.data.bl.uk/id/resource/014556357", null ], "Bath", "2007", "1841652008", "Annie Bullen" ]
+, [ 23437, "8114C3EA-1670-4163-BD4D-517BB5FF3525", 23437, 1413128942, "467", 1413128942, "467", null, "GBA8D8886", [ "http://bnb.data.bl.uk/id/resource/014852407", null ], "Bath and Wells : a sketch-book", "2009", "140811125X", "D. S. Andrews" ]
+, [ 23438, "F1B48675-5192-4B08-BBE1-12284D5F6E60", 23438, 1413128942, "467", 1413128942, "467", null, "GBA477976", [ "http://bnb.data.bl.uk/id/resource/013027897", null ], "The myth maker : John Wood, 1704-1754", "2004", "0954613821", "Kirsten Elliott" ]
+, [ 23439, "9DDC877C-B3C5-44DF-B32E-7975ED98CE29", 23439, 1413128942, "467", 1413128942, "467", null, "GB9612268", [ "http://bnb.data.bl.uk/id/resource/012607781", null ], "Discovering Bath", "1995", "0199167028", "Sue Thomas" ]
+, [ 23440, "C579614F-16F4-4AC4-800B-0AA75799C71A", 23440, 1413128942, "467", 1413128942, "467", null, "GBA459892", [ "http://bnb.data.bl.uk/id/resource/012971982", null ], "A portrait of Bath", "2004", "184114374X", "John Cleare" ]
+, [ 23441, "6228837D-179D-43B2-83D6-93F89F67D44F", 23441, 1413128942, "467", 1413128942, "467", null, "GB9529913", [ "http://bnb.data.bl.uk/id/resource/008150659", null ], "In and around Bath", "1994", "1871004233", "Tricia Simmonds" ]
+, [ 23442, "F8C64311-2412-4A8C-A537-827F6CAE522E", 23442, 1413128942, "467", 1413128942, "467", null, "GB8434518", [ "http://bnb.data.bl.uk/id/resource/007395603", null ], "Roman Bath discovered", "1984", "0710201966", "Barry W. Cunliffe" ]
+, [ 23443, "2BA59A6F-D2F5-4185-B24F-A7EF5D7C9035", 23443, 1413128942, "467", 1413128942, "467", null, "GBA146561", [ "http://bnb.data.bl.uk/id/resource/012031381", null ], "On your bike around Bristol and Bath", "2001", "1853066605", "Nigel Vile" ]
+, [ 23444, "FE1FDB38-C04C-4C7F-A713-AA73989B60CF", 23444, 1413128942, "467", 1413128942, "467", null, "GB7327844", [ "http://bnb.data.bl.uk/id/resource/012250915", null ], "The Civil War in Bath and North Somerset, 1642-1650", "1973", "0903044080", "John Wroughton" ]
+, [ 23445, "2A926593-7A19-4817-B173-9E493D90FA3C", 23445, 1413128942, "467", 1413128942, "467", null, "GBA277893", [ "http://bnb.data.bl.uk/id/resource/009393609", null ], "Gainsborough in Bath", "2002", "0300097115", "Susan Sloman" ]
+, [ 23446, "AF5BF75E-837F-47B4-BD42-85764200BE57", 23446, 1413128942, "467", 1413128942, "467", null, "GBA4Z3955", [ "http://bnb.data.bl.uk/id/resource/006907501", null ], "Bath", "2004", "0711222665", "Kirsten Elliott" ]
+, [ 23447, "2D7102F7-F3CF-4108-B7E6-B6955B472C21", 23447, 1413128942, "467", 1413128942, "467", null, "GBB050712", [ "http://bnb.data.bl.uk/id/resource/015530655", null ], "Bath's Old Orchard Street Theatre", "2010", "0956423000", "Malcolm Toogood" ]
+, [ 23448, "C41A66F4-48C4-42BA-A491-3780C1014CD6", 23448, 1413128942, "467", 1413128942, "467", null, "GB7901642", [ "http://bnb.data.bl.uk/id/resource/007437386", null ], "Bath before Beau Nash : a guide based on Gilmore's Map of Bath, 1692-4", "1978", "0906230055", "Meg Hamilton" ]
+, [ 23449, "7B181E72-6FA1-4BB3-AABF-EF9F683F8D5F", 23449, 1413128942, "467", 1413128942, "467", null, "GB8303872", [ "http://bnb.data.bl.uk/id/resource/012688458", null ], "They came to Bath", "1982", "090545944X", "William Lowndes" ]
+, [ 23450, "5F802B8E-D33E-4687-A771-71F00F7E4C0E", 23450, 1413128942, "467", 1413128942, "467", null, "GBA606982", [ "http://bnb.data.bl.uk/id/resource/012866860", null ], "Bath commercialis'd : shops, trades and market at the 18th-century spa", "2002", "0952632632", "Trevor Fawcett" ]
+, [ 23451, "09BE3882-CD13-4B4C-BBA8-F90D780DF65D", 23451, 1413128942, "467", 1413128942, "467", null, "GBA635699", [ "http://bnb.data.bl.uk/id/resource/013436584", null ], "Cafe Tropicana", "2006", "0099489872", "Belinda Jones" ]
+, [ 23452, "DAD66499-3DEB-40BE-A021-020276B47527", 23452, 1413128942, "467", 1413128942, "467", null, "GB99Y2941", [ "http://bnb.data.bl.uk/id/resource/008809956", null ], "A city of palaces : Bath through the eyes of Fanny Burney", "1999", "0948975539", "Maggie Lane" ]
+, [ 23453, "D5E5A609-226E-46E8-AB0B-557B6F63EEC9", 23453, 1413128942, "467", 1413128942, "467", null, "GBB258635", [ "http://bnb.data.bl.uk/id/resource/016105231", null ], "Emerald flame", "1997", "0745187536", "Virginia Coffman" ]
+, [ 23454, "0FE4D857-C809-4DB0-BBF9-8DE89A3A91A2", 23454, 1413128942, "467", 1413128942, "467", null, "GB7902663", [ "http://bnb.data.bl.uk/id/resource/007437387", null ], "Bath : some encounters with science", "1978", "0906230101", "W. J. Williams" ]
+, [ 23455, "3F23F9DF-78ED-4539-B1C0-DFEA2E3B9F2C", 23455, 1413128942, "467", 1413128942, "467", null, "GBB098759", [ "http://bnb.data.bl.uk/id/resource/015630014", null ], "The Penningtons", "2010", "1847513204", "Pamela Oldfield" ]
+, [ 23456, "BB1ACC1F-8EEF-42A9-8FAD-7DC789E30829", 23456, 1413128942, "467", 1413128942, "467", null, "GBA606933", [ "http://bnb.data.bl.uk/id/resource/006914706", null ], "Stuart Bath : life in the forgotten city, 1603-1714", "2004", "0952024942", "John Wroughton" ]
+, [ 23457, "BCD02657-F3ED-4EEB-9236-6F67DD6AB266", 23457, 1413128942, "467", 1413128942, "467", null, "GBB259968", [ "http://bnb.data.bl.uk/id/resource/016107384", null ], "Bath through time", "2012", "1445606151", "Jenny Knight" ]
+, [ 23458, "5F5D59A4-399F-46C7-B029-8FEED4267BED", 23458, 1413128942, "467", 1413128942, "467", null, "GBA066056", [ "http://bnb.data.bl.uk/id/resource/012599309", null ], "The image of Georgian Bath, 1700-2000 : towns, heritage, and history", "2000", "0198202652", "Peter Borsay" ]
+, [ 23459, "2D78AB43-B38F-4A73-A82C-E361C96F12F6", 23459, 1413128942, "467", 1413128942, "467", null, "GB7214303", [ "http://bnb.data.bl.uk/id/resource/009932348", null ], "Aquae Sulis", "1971", "0602214815", "Barry W. Cunliffe" ]
+, [ 23460, "F8CB1A45-A07A-44FB-90E8-925D30BE73D5", 23460, 1413128942, "467", 1413128942, "467", null, "GBA1W5757", [ "http://bnb.data.bl.uk/id/resource/010726933", null ], "Bath at war: the home front, 1939-1945", "2001", "0750926724", "David Falconer" ]
+, [ 23461, "5D867575-89E4-4204-9949-5C91F0E7F932", 23461, 1413128942, "467", 1413128942, "467", null, "GBA920770", [ "http://bnb.data.bl.uk/id/resource/014916416", null ], "A traveller's history of Bath", "2009", "1905214650", "Richard Tames" ]
+, [ 23462, "FC2DDD16-C466-46BE-ACE3-45AFE31FC086", 23462, 1413128942, "467", 1413128942, "467", null, "GB7219252", [ "http://bnb.data.bl.uk/id/resource/012250914", null ], "Bath in the Age of Reform, (1830-1841)", "1972", "0903044056", "John Wroughton" ]
+, [ 23463, "4DCF3F31-7151-4501-96EA-849492B1A4C3", 23463, 1413128942, "467", 1413128942, "467", null, "GB8715327", [ "http://bnb.data.bl.uk/id/resource/007441443", null ], "The bombing of Bath : the German air raids of April 1942", "1983", "0906798299", "Niall Rothnie" ]
+, [ 23464, "88A99297-0000-426E-98C6-620487405FFC", 23464, 1413128942, "467", 1413128942, "467", null, "GBA924062", [ "http://bnb.data.bl.uk/id/resource/013814583", null ], "Near Bristol & Bath", "2007", "1846740142", "Nigel Vile" ]
+, [ 23465, "E7AED967-FF1D-4AF3-B0FF-1790C6E31BC2", 23465, 1413128942, "467", 1413128942, "467", null, "GBA692977", [ "http://bnb.data.bl.uk/id/resource/013590762", null ], "Getting toasted", "2006", "1846854199", "Samantha Vickery" ]
+, [ 23466, "C6EBE8EB-9168-4E70-94C5-4AC9C5E8E609", 23466, 1413128942, "467", 1413128942, "467", null, "GB8615206", [ "http://bnb.data.bl.uk/id/resource/010742935", null ], "The city of Bath", "1986", "0862992508", "Barry W. Cunliffe" ]
+, [ 23467, "04DD8740-04B6-418E-816D-24B8BD4A06EC", 23467, 1413128942, "467", 1413128942, "467", null, "GBA646949", [ "http://bnb.data.bl.uk/id/resource/013465126", null ], "Stories of Bath : a selective history in eleven episodes", "2006", "0948975776", "Diana White" ]
+, [ 23468, "E576BAA8-DDD5-414D-BF82-690A221A35A3", 23468, 1413128942, "467", 1413128942, "467", null, "GBB0E0852", [ "http://bnb.data.bl.uk/id/resource/015349688", null ], "Bath gyratory : stone & spa walk", "2009", "0956290000", "Barb Drummond" ]
+, [ 23469, "A288CF28-DAC2-4D8A-B1C8-B73B2B8D0267", 23469, 1413128942, "467", 1413128942, "467", null, "GB99X8194", [ "http://bnb.data.bl.uk/id/resource/008389981", null ], "The vault", "1999", "0753160684", "Peter Lovesey" ]
+, [ 23470, "ADB6B2A7-20AF-49ED-AAA2-89591F725173", 23470, 1413128942, "467", 1413128942, "467", null, "GB7932143", [ "http://bnb.data.bl.uk/id/resource/007437385", null ], "Walking in Bath", "1978", "0906230004", "Charles Greenwood" ]
+, [ 23471, "890B6E92-2637-4F11-9A1C-93EF90820B62", 23471, 1413128942, "467", 1413128942, "467", null, "GB8625204", [ "http://bnb.data.bl.uk/id/resource/009450762", null ], "City of Bath", "1973", "0853720886", "R. W. M. Wright" ]
+, [ 23472, "8C661CE4-2B2B-4822-8C68-35E91901AA3B", 23472, 1413128942, "467", 1413128942, "467", null, "GB8317047", [ "http://bnb.data.bl.uk/id/resource/012688461", null ], "The Theatre Royal at Bath : the eventful story of a Georgian playhouse", "1982", "0905459490", "William Lowndes" ]
+, [ 23473, "59CF144F-04F0-4C6E-B84A-9188A84E68DB", 23473, 1413128942, "467", 1413128942, "467", null, "GBA898781", [ "http://bnb.data.bl.uk/id/resource/014691724", null ], "Lady Sabrina's secret", "2009", "0709086571", "Jeannie Machin" ]
+, [ 23474, "D1673768-C5C0-415A-A0B3-85B23F7D4522", 23474, 1413128942, "467", 1413128942, "467", null, "GB9010327", [ "http://bnb.data.bl.uk/id/resource/008807800", null ], "The city of Bath", "1990", "0948661143", "Colin Baxter" ]
+, [ 23475, "9F51533E-D145-470E-8A93-4D4A8FC6B237", 23475, 1413128942, "467", 1413128942, "467", null, "GBA633824", [ "http://bnb.data.bl.uk/id/resource/013431641", null ], "Absolute honour", "2006", "0752871900", "C. C. Humphreys" ]
+, [ 23476, "2E7D71E2-7274-47A4-888A-A96748719789", 23476, 1413128942, "467", 1413128942, "467", null, "GBB1D7156", [ "http://bnb.data.bl.uk/id/resource/015978967", null ], "This is Paradise", "2012", "1447216210", "Will Eaves" ]
+, [ 23477, "3E8A55F1-293E-4142-8281-48F7A14109D5", 23477, 1413128942, "467", 1413128942, "467", null, "GB8301475", [ "http://bnb.data.bl.uk/id/resource/012647507", null ], "Portrait of Bath", "1982", "0709198833", "John Haddon" ]
+, [ 23478, "6F65897C-35D1-476D-ACCB-08CD7D1BA7C2", 23478, 1413128942, "467", 1413128942, "467", null, "GB7428105", [ "http://bnb.data.bl.uk/id/resource/012254470", null ], "Electricity in Bath, 1890-1974", "1974", "0904587002", "William Edward Eyles" ]
+, [ 23479, "DA06AF61-CD3B-4F67-8925-79F676552243", 23479, 1413128942, "467", 1413128942, "467", null, "GBB272412", [ "http://bnb.data.bl.uk/id/resource/016131015", null ], "Water, history and style : Bath World Heritage Site", "2012", "0752488147", "Cathryn Spence" ]
+, [ 23480, "4E2F41AD-5D1A-4FA8-88EF-C5357E69B778", 23480, 1413128942, "467", 1413128942, "467", null, "GB9827207", [ "http://bnb.data.bl.uk/id/resource/006748127", null ], "The new Bath guide", "1994", "1874092117", "Christopher Anstey" ]
+, [ 23481, "7A46BB54-0DE5-4E8C-A3FB-13FC0EA9C378", 23481, 1413128942, "467", 1413128942, "467", null, "GB7528876", [ "http://bnb.data.bl.uk/id/resource/008041546", null ], "Bath and its surroundings", "1975", "0239001478", "Neil Gibson" ]
+, [ 23482, "8E7CF079-FB29-4040-A2F3-1AF5AC48B24D", 23482, 1413128942, "467", 1413128942, "467", null, "GB8727124", [ "http://bnb.data.bl.uk/id/resource/010077907", null ], "Tales from the pump room : nine hundred years of Bath : the place, its people and its gossip", "1988", "0575041935", "Thomas Hinde" ]
+, [ 23483, "BB0DD812-63DF-409B-91C8-01738CCDEDB7", 23483, 1413128942, "467", 1413128942, "467", null, "GBB0B7262", [ "http://bnb.data.bl.uk/id/resource/015660194", null ], "Bath", "2011", "1848484666", "Carole French" ]
+, [ 23484, "18099CBD-EAE6-49F8-8968-ED3E4B6D70F4", 23484, 1413128942, "467", 1413128942, "467", null, "GBB086556", [ "http://bnb.data.bl.uk/id/resource/015606115", null ], "Ralph Allen : builder of Bath", "2010", "0955954169", "Diana Winsor" ]
+, [ 23485, "BBAA83AD-5FC0-4E5A-9F48-E8EFB576AE69", 23485, 1413128942, "467", 1413128942, "467", null, "GBA533997", [ "http://bnb.data.bl.uk/id/resource/013180608", null ], "Headcase", "2005", "1845291131", "Peter Helton" ]
+, [ 23486, "95B840E1-0A0B-4BEF-96F4-12485CF3F7CE", 23486, 1413128942, "467", 1413128942, "467", null, "GB9851159", [ "http://bnb.data.bl.uk/id/resource/011018373", null ], "The killing of Sally Keemer : the new bath detective mystery", "1998", "0575602058", "Christopher Lee" ]
+, [ 23487, "250096DA-F946-45C0-B563-53AAB9AF646A", 23487, 1413128942, "467", 1413128942, "467", null, "GBB322035", [ "http://bnb.data.bl.uk/id/resource/016244577", null ], "Diseased, douched and doctored : thermal springs, spa doctors and rheumatic diseases", "2012", "1907994092", "Roger Rolls" ]
+, [ 23488, "4BC16990-59E9-4C4A-BD5F-7162A0E8C3AE", 23488, 1413128942, "467", 1413128942, "467", null, "GB9612268", [ "http://bnb.data.bl.uk/id/resource/012607781", null ], "Discovering Bath", "1995", "0199166986", "Sue Thomas" ]
+, [ 23489, "C6F853D5-2181-4771-9D1B-B8D7B6F2028E", 23489, 1413128942, "467", 1413128942, "467", null, "GB8901817", [ "http://bnb.data.bl.uk/id/resource/009450863", null ], "City of Bath : the Roman city of aquae sulis", "1988", "0853724385", "Jane Wilton-Smith" ]
+, [ 23490, "7C8128A6-963D-45F7-A84A-D888872474EF", 23490, 1413128942, "467", 1413128942, "467", null, "GBA257682", [ "http://bnb.data.bl.uk/id/resource/008809961", null ], "The last promenade : Sydney Gardens, Bath", "2000", "0948975598", "Brenda Snaddon" ]
+, [ 23491, "616FEFE2-1BDA-4B04-B473-8961DE0AB686", 23491, 1413128942, "467", 1413128942, "467", null, "GB8336384", [ "http://bnb.data.bl.uk/id/resource/012688462", null ], "Bath", "1983", "0905459520", "Edith Sitwell" ]
+, [ 23492, "6C81B6E2-B124-40A6-B77B-830A7FDE85A6", 23492, 1413128942, "467", 1413128942, "467", null, "GB8958769", [ "http://bnb.data.bl.uk/id/resource/008809927", null ], "A charming place : Bath in the life and times of Jane Austen", "1988", "0948975148", "Maggie Lane" ]
+, [ 23493, "F24CB1DE-06B9-4EFD-AE5D-4B1EAF96096D", 23493, 1413128942, "467", 1413128942, "467", null, "GBB1B8443", [ "http://bnb.data.bl.uk/id/resource/015946994", null ], "A walk in the park", "2012", "0755355830", "Jill Mansell" ]
+, [ 23494, "9D09D38D-0692-40EF-B3EB-CCF1E2230BD8", 23494, 1413128942, "467", 1413128942, "467", null, "GBB258635", [ "http://bnb.data.bl.uk/id/resource/016105231", null ], "Emerald flame", "1997", "0745154514", "Virginia Coffman" ]
+, [ 23495, "6572AC9A-3C1C-4B7B-93EB-A630E5D176CE", 23495, 1413128942, "467", 1413128942, "467", null, "GBA557949", [ "http://bnb.data.bl.uk/id/resource/013244695", null ], "Bristol & Bath, Somerset and Gloucestershire", "2005", "1853068969", "Nigel Vile" ]
+, [ 23496, "799C09B9-4F56-4AFD-99C7-7D5CFBA1A947", 23496, 1413128942, "467", 1413128942, "467", null, "GBB1C8429", [ "http://bnb.data.bl.uk/id/resource/015964324", null ], "Avon Street", "2012", "0752465546", "Paul Emanuelli" ]
+, [ 23497, "6723DA59-BB4D-4B5A-B308-B7EB0BECF99E", 23497, 1413128942, "467", 1413128942, "467", null, "GB9325771", [ "http://bnb.data.bl.uk/id/resource/007443621", null ], "Bath", "1993", "0907115594", "Paul Newman" ]
+, [ 23498, "9FB82DBA-E87F-43ED-BDE9-D13C7C218954", 23498, 1413128942, "467", 1413128942, "467", null, "GBA806455", [ "http://bnb.data.bl.uk/id/resource/014493384", null ], "The mantua-maker's beau", "2007", "0786298820", "Anne Holman" ]
+, [ 23499, "5A00F593-58EA-4503-B878-5668C8CD07F4", 23499, 1413128942, "467", 1413128942, "467", null, "GB8502633", [ "http://bnb.data.bl.uk/id/resource/011392867", null ], "Exploring Bath", "1984", "0850260027", "Keith Dallimore" ]
+, [ 23500, "A45F2579-DB57-4DFA-8DA8-316E00B0F31C", 23500, 1413128942, "467", 1413128942, "467", null, "GB9908105", [ "http://bnb.data.bl.uk/id/resource/009488190", null ], "Mr Bowler of Bath : Victorian entrepreneur and engineer", "1998", "0953420108", "Ken Andrews" ]
+ ]
+}
